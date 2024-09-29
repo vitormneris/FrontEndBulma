@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            width: 800px;
+        }
+
+        .is-dark {
+            margin: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                Hello World
+            </h1>
+            <p class="subtitle">
+                My first website with <strong>Bulma</strong>!
+            </p>
+        </div>
+    </section>
+
+    <br>
+    <form id="form-insert">
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <h2 class="title is-2">Formulário</h2>
+
+                    <div class="control">
+                        <label class="label">Nome</label>
+                        <input id="name" class="input is-rounded" type="text" placeholder="Digite o seu nome" />
+                    </div>
+
+                    <br>
+
+                    <div class="control">
+                        <label class="label">E-mail</label>
+                        <input id="email" class="input is-rounded" type="text" placeholder="Digite o seu email" />
+                    </div>
+
+                    <br>
+
+
+                    <div class="control">
+                        <label class="label">Senha</label>
+                        <input id="password" class="input is-rounded" type="text" placeholder="Digite o seu senha" />
+                    </div>
+
+                    <br>
+                    <button type="submit" class="button is-medium">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <a href="usersView.html">
+        <button id="view-button" class="button is-dark">Visualizar usuários</button>
+    </a>
+    <script src="js/insertUser.js" ></script>
+</body>
+</html>
