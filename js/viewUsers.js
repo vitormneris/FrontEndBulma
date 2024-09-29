@@ -1,4 +1,4 @@
-fetch('http://0.0.0.0:9191/usuarios/listartodos', {
+fetch('http://0.0.0.0:8080/usuarios/listartodos', {
     method: 'GET',
 })
 .then(response => {
