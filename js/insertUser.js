@@ -11,7 +11,7 @@ document.getElementById("form-insert").addEventListener("submit", function(event
         "password": password
     }
 
-    fetch('http://0.0.0.0:8080/usuarios/salvar', {
+    fetch('http://18.217.116.216:8080/usuarios/salvar', {
         method: 'POST',
         headers: { 
             "Content-Type": "application/json"
